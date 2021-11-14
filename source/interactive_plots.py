@@ -141,7 +141,9 @@ def interactive_violin(button_info, data, y_axis_label):
     # create violin plot traces for each data column
     for col in button_info["data"]["columns"]: 
         g.add_trace(
-            go.Violin(y=data[col], opacity=0.6, name="", box_visible=True, line_color="black", fillcolor='lightseagreen', meanline_visible=True) 
+            go.Violin(y=data[col], opacity=0.6, name="", box_visible=True, \
+                    line_color="black", fillcolor='lightseagreen', \
+                    meanline_visible=True, points="all") 
         )
 
     def validate(): # function to ensure that value delivered by button is in dataframe    
