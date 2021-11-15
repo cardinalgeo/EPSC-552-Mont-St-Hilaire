@@ -1,0 +1,121 @@
+{
+    "sample": [],
+    "sample_session": [
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04"
+        }
+    ],
+    "sample_session_element": [
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "Au"
+        },
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "Ag"
+        },
+        {
+            "Sample ID": "oreas45e",
+            "Session": "2021-10-31",
+            "Element": "Co"
+        },
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "Cr"
+        },
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "Cu"
+        },
+        {
+            "Sample ID": "oreas45e",
+            "Session": "2021-10-31",
+            "Element": "Fe"
+        },
+        {
+            "Sample ID": "oreas45e",
+            "Session": "2021-10-31",
+            "Element": "Hg"
+        },
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "Hg"
+        },
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "Mn"
+        },
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "Mo"
+        },
+        {
+            "Sample ID": "oreas45e",
+            "Session": "2021-10-31",
+            "Element": "Ni"
+        },
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "Se"
+        },
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "Sn"
+        },
+        {
+            "Sample ID": "oreas45e",
+            "Session": "2021-10-31",
+            "Element": "Ti"
+        },
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "Ti"
+        },
+        {
+            "Sample ID": "oreas45d",
+            "Session": "2021-11-04",
+            "Element": "Ti"
+        },
+        {
+            "Sample ID": "oreas503b",
+            "Session": "2021-11-04",
+            "Element": "Ti"
+        },
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "V"
+        },
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "Pt"
+        },
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "Rh"
+        },
+        {
+            "Sample ID": "oreas504b",
+            "Session": "2021-11-04",
+            "Element": "Y"
+        },
+        {
+            "Sample ID": "oreas502b",
+            "Session": "2021-10-29",
+            "Element": "La"
+        }
+    ]
+}
