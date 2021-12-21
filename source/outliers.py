@@ -44,7 +44,7 @@ def detect_outliers_Dixons_Q(elements, data):
             for row in outliers.iterrows(): 
                 outlier_record = {}   
                 outlier_record["Sample ID"] = row[1]["sample_id"]
-                outlier_record["Session"] = row[1]["date"].strftime("%Y-%m-%d")
+                outlier_record["Session"] = row[1]["date"]
                 outlier_record["Element"] = element
 
                 outlier_records.append(outlier_record)
@@ -63,14 +63,14 @@ def remove_outliers(outliers, data):
         data.drop(
                 data[
                     (data["sample_id"] == outlier["Sample ID"]) & \
-                    (data["date"]      == datetime.strptime(outlier["Session"], "%Y-%m-%d"))
+                    (data["date"]      == outlier["Session"])
                     ].index, \
                 inplace=True)
 
     for outlier in outliers["sample_session_element"]: 
         data.loc[
                 (data["sample_id"] == outlier["Sample ID"]) & \
-                (data["date"]      == datetime.strptime(outlier["Session"], "%Y-%m-%d")), \
+                (data["date"]      == outlier["Session"]), \
                 outlier["Element"]
                 ] = np.NaN
     
