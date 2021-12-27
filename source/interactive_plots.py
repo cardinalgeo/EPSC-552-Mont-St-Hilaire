@@ -320,7 +320,7 @@ def interactive_linear_regression_calibration_plot(button_info, model_results, x
     for col in button_info["data"]["columns"]: 
         r_squared = round(model_results[col]["score"], 3)
         g.add_trace(
-            go.Scatter(x=model_results[col]["x_train"].squeeze(),
+            go.Scatter(x=model_results[col]["x_train"],
                        y=model_results[col]["y_train"], 
                        name="data",
                        mode="markers"
@@ -328,7 +328,7 @@ def interactive_linear_regression_calibration_plot(button_info, model_results, x
         )        
         g.add_trace(
             go.Scatter(x=model_results[col]["y_predict"], 
-                       y=model_results[col]["x_predict"].squeeze(), 
+                       y=model_results[col]["x_predict"], 
                        name=f"line of best fit (R squared = {r_squared})",
                        mode="lines"
             )       
