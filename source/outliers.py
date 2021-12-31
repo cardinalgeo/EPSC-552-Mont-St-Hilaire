@@ -34,13 +34,14 @@ def detect_outliers_Dixons_Q(elements, data):
     outlier_records = []
 
     for element in elements: 
-        od = OutlierDetector(buffer_samples=27) # max buffer size allowed
-        outlier_bool = [None] * data.shape[0]
-        for i, sample in enumerate(data[element]): 
-            outlier_bool[i] = od.is_outlier(sample)
+        # od = OutlierDetector(buffer_samples=27) # max buffer size allowed
+        # outlier_bool = [None] * data.shape[0]
+        # for i, sample in enumerate(data[element]): 
+        #     outlier_bool[i] = od.is_outlier(sample)
+        outlier_indexes = dixon_test(data[element])[2]
 
-        if True in outlier_bool: 
-            outliers = data[outlier_bool]
+        if outlier_indexes: 
+            outliers = data.iloc[outlier_indexes]
             for row in outliers.iterrows(): 
                 outlier_record = {}   
                 outlier_record["Sample ID"] = row[1]["sample_id"]
@@ -75,19 +76,6 @@ def remove_outliers(outliers, data):
                 ] = np.NaN
     
     return data
-
-def detect_and_remove_outliers_Dixons_Q(data): 
-    od = OutlierDetector(buffer_samples=27) # max buffer size allowed
-    outlier_bool = [None] * data.shape[0]
-    for i, sample in enumerate(data): 
-        outlier_bool[i] = od.is_outlier(sample)
-
-        outlier = data[outlier_bool]
-        outlier_bool = list(np.invert(outlier_bool))
-        data = outlier_bool
-            
-
-    return data, outlier
 
 def dixon_test(data, left=True, right=True, confidence_level=95):
     """
@@ -130,9 +118,9 @@ def dixon_test(data, left=True, right=True, confidence_level=95):
            0.384, 0.38, 0.376, 0.372
            ]
 
-    Q90 = {n:q for n,q in zip(range(3,len(q90)+1), q90)}
-    Q95 = {n:q for n,q in zip(range(3,len(q95)+1), q95)}
-    Q99 = {n:q for n,q in zip(range(3,len(q99)+1), q99)}
+    Q90 = {n:q for n,q in zip(range(3,len(q90)+3), q90)}
+    Q95 = {n:q for n,q in zip(range(3,len(q95)+3), q95)}
+    Q99 = {n:q for n,q in zip(range(3,len(q99)+3), q99)}
 
     if confidence_level==90: 
         q_dict = Q90
@@ -141,8 +129,13 @@ def dixon_test(data, left=True, right=True, confidence_level=95):
     elif confidence_level==99:
         qdict = Q99
     
+    n_of_nan = sum([1 for value in data if np.isnan(value)])
+    data = [np.inf if np.isnan(value) else value for value in data]
     sdata = sorted(data)
-    sort_index = np.argsort(data)
+    sort_index = [index for index, value in sorted(enumerate(data), key=lambda x: x[1])]
+    if n_of_nan != 0:
+        sort_index = sort_index[:-n_of_nan]
+        
     Q_mindiff, Q_maxdiff = (0,0), (0,0)
     
     if left:
@@ -162,20 +155,22 @@ def dixon_test(data, left=True, right=True, confidence_level=95):
         Q_maxdiff = (Q_max - q_dict[len(data)], sort_index[-1])
 
     if not Q_mindiff[0] > 0 and not Q_maxdiff[0] > 0:
-        outliers = [None, None]
+        outlier_indexes = [None, None]
     
     elif Q_mindiff[0] == Q_maxdiff[0]: 
-        outliers = [Q_mindiff[1], Q_maxdiff[1]]
+        outlier_indexes = [Q_mindiff[1], Q_maxdiff[1]]
         
     elif Q_mindiff[0] > Q_maxdiff[0]:
-        outliers = [Q_mindiff[1], None]
+        outlier_indexes = [Q_mindiff[1], None]
     
     else:
-        outliers = [None, Q_maxdiff[1]]
+        outlier_indexes = [None, Q_maxdiff[1]]
 
-    outlier_values = []
-    for outlier in outliers:
-        if outlier != None:
-            outlier_value = data.pop(outlier)
-            outlier_values.append(outlier_value)
-    return data, outlier_values
+    outlier_indexes = list(filter(None, outlier_indexes))
+    
+    outliers = []
+    for index in outlier_indexes:
+        outlier = data.pop(index)
+        outliers.append(outlier)
+    
+    return data, outliers, outlier_indexes

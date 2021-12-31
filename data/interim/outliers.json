@@ -38,16 +38,6 @@
             "Element": "Fe"
         },
         {
-            "Sample ID": "oreas45e",
-            "Session": "2021-10-31",
-            "Element": "Hg"
-        },
-        {
-            "Sample ID": "oreas504b",
-            "Session": "2021-11-04",
-            "Element": "Hg"
-        },
-        {
             "Sample ID": "oreas504b",
             "Session": "2021-11-04",
             "Element": "Mn"
@@ -73,22 +63,12 @@
             "Element": "Sn"
         },
         {
-            "Sample ID": "oreas45e",
-            "Session": "2021-10-31",
-            "Element": "Ti"
+            "Sample ID": "oreas504b",
+            "Session": "2021-10-07",
+            "Element": "Sr"
         },
         {
             "Sample ID": "oreas504b",
-            "Session": "2021-11-04",
-            "Element": "Ti"
-        },
-        {
-            "Sample ID": "oreas45d",
-            "Session": "2021-11-04",
-            "Element": "Ti"
-        },
-        {
-            "Sample ID": "oreas503b",
             "Session": "2021-11-04",
             "Element": "Ti"
         },
