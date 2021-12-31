@@ -1,26 +1,26 @@
 {
     "Ag": {
-        "standard deviation": 2.464375045523055,
+        "standard deviation": 8.527049792709997,
         "number of pairs": 1
     },
     "As": {
-        "standard deviation": 5.099286164262956,
+        "standard deviation": 19.080145450870614,
         "number of pairs": 27
     },
     "Au": {
-        "standard deviation": 0.8049614667566162,
+        "standard deviation": 2.2586459398235665,
         "number of pairs": 27
     },
     "Ba": {
-        "standard deviation": 18.624785025050826,
+        "standard deviation": 334.64695802112817,
         "number of pairs": 27
     },
     "Bi": {
-        "standard deviation": 0.502047736902401,
+        "standard deviation": 22.160652181596777,
         "number of pairs": 1
     },
     "Ca": {
-        "standard deviation": 1393.847393118414,
+        "standard deviation": 16126.321391778296,
         "number of pairs": 27
     },
     "Cd": {
@@ -28,135 +28,135 @@
         "number of pairs": 0
     },
     "Ce": {
-        "standard deviation": 6.201085845484925,
+        "standard deviation": 56.23725606189323,
         "number of pairs": 27
     },
     "Cl": {
-        "standard deviation": 124.14970055601482,
+        "standard deviation": 931.9066774927388,
         "number of pairs": 27
     },
     "Co": {
-        "standard deviation": 10.702791024772656,
+        "standard deviation": 55.53685657474632,
         "number of pairs": 4
     },
     "Cr": {
-        "standard deviation": 1.6478136867831914,
+        "standard deviation": 46.41733834252011,
         "number of pairs": 1
     },
     "Cu": {
-        "standard deviation": 7.00871664875283,
+        "standard deviation": 56.89299798058908,
         "number of pairs": 27
     },
     "Fe": {
-        "standard deviation": 2100.940718645573,
+        "standard deviation": 35129.61418704118,
         "number of pairs": 27
     },
     "Hg": {
-        "standard deviation": 1.3362468168551629,
+        "standard deviation": 10.108650494245747,
         "number of pairs": 27
     },
     "K": {
-        "standard deviation": 988.5064560646998,
+        "standard deviation": 6499.759053693143,
         "number of pairs": 23
     },
     "La": {
-        "standard deviation": 11.26595274746104,
-        "number of pairs": 25
+        "standard deviation": 50.35365073666908,
+        "number of pairs": 26
     },
     "Mn": {
-        "standard deviation": 122.34879937426669,
+        "standard deviation": 2105.970517999979,
         "number of pairs": 27
     },
     "Mo": {
-        "standard deviation": 0.9366502155000648,
+        "standard deviation": 5.2462942640165915,
         "number of pairs": 9
     },
     "Nb": {
-        "standard deviation": 4.374187385676754,
+        "standard deviation": 56.782059556935074,
         "number of pairs": 27
     },
     "Nd": {
-        "standard deviation": 3.710210080015541,
+        "standard deviation": 15.266613079761893,
         "number of pairs": 27
     },
     "Ni": {
-        "standard deviation": 14.564214828843618,
+        "standard deviation": 113.89327830831287,
         "number of pairs": 26
     },
     "P": {
-        "standard deviation": 235.62214388974203,
-        "number of pairs": 24
+        "standard deviation": 1340.6915888908934,
+        "number of pairs": 25
     },
     "Pb": {
-        "standard deviation": 14.453791478509027,
+        "standard deviation": 73.69028387287435,
         "number of pairs": 27
     },
     "Pd": {
-        "standard deviation": 0.9262629016445402,
+        "standard deviation": 3.8888968253887266,
         "number of pairs": 27
     },
     "Pr": {
-        "standard deviation": 1.313153310978107,
+        "standard deviation": 1.6485879322325683,
         "number of pairs": 27
     },
     "Pt": {
-        "standard deviation": 1.522789837400056,
+        "standard deviation": 8.840144124851594,
         "number of pairs": 27
     },
     "Rb": {
-        "standard deviation": 2.185939997428084,
+        "standard deviation": 40.589432989827955,
         "number of pairs": 27
     },
     "Rh": {
-        "standard deviation": 0.3983763342666124,
+        "standard deviation": 1.2910661686574596,
         "number of pairs": 27
     },
     "S": {
-        "standard deviation": 290.0009731610426,
-        "number of pairs": 5
+        "standard deviation": 1751.7885671444456,
+        "number of pairs": 7
     },
     "Sb": {
-        "standard deviation": 1.1339805055912073,
-        "number of pairs": 14
+        "standard deviation": 3.06481548066133,
+        "number of pairs": 19
     },
     "Se": {
         "standard deviation": null,
         "number of pairs": 0
     },
     "Sm": {
-        "standard deviation": 10.566083768986074,
+        "standard deviation": 9.361595868748433,
         "number of pairs": 27
     },
     "Sn": {
-        "standard deviation": null,
-        "number of pairs": 0
+        "standard deviation": 7.703412886101327,
+        "number of pairs": 1
     },
     "Sr": {
-        "standard deviation": 29.88034847381531,
+        "standard deviation": 706.6087172183869,
         "number of pairs": 27
     },
     "Ti": {
-        "standard deviation": 424.77117845691765,
+        "standard deviation": 6224.47601370584,
         "number of pairs": 26
     },
     "U": {
-        "standard deviation": 1.9478227793805785,
-        "number of pairs": 15
+        "standard deviation": 8.688231977925915,
+        "number of pairs": 19
     },
     "V": {
-        "standard deviation": 8.14611408282353,
+        "standard deviation": 112.17548864925256,
         "number of pairs": 26
     },
     "Y": {
-        "standard deviation": 2.873976736233003,
-        "number of pairs": 25
+        "standard deviation": 30.45293653513292,
+        "number of pairs": 26
     },
     "Zn": {
-        "standard deviation": 21.07503572251728,
+        "standard deviation": 124.08106798421593,
         "number of pairs": 26
     },
     "Zr": {
-        "standard deviation": 846.4533863698472,
-        "number of pairs": 22
+        "standard deviation": 4777.511922444818,
+        "number of pairs": 23
     }
 }
