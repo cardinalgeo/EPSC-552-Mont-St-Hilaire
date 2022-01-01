@@ -34,10 +34,6 @@ def detect_outliers_Dixons_Q(elements, data):
     outlier_records = []
 
     for element in elements: 
-        # od = OutlierDetector(buffer_samples=27) # max buffer size allowed
-        # outlier_bool = [None] * data.shape[0]
-        # for i, sample in enumerate(data[element]): 
-        #     outlier_bool[i] = od.is_outlier(sample)
         outlier_indexes = dixon_test(data[element])[2]
 
         if outlier_indexes: 
@@ -135,7 +131,7 @@ def dixon_test(data, left=True, right=True, confidence_level=95):
     sort_index = [index for index, value in sorted(enumerate(data), key=lambda x: x[1])]
     if n_of_nan != 0:
         sort_index = sort_index[:-n_of_nan]
-        
+
     Q_mindiff, Q_maxdiff = (0,0), (0,0)
     
     if left:
