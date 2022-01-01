@@ -1,0 +1,172 @@
+{
+    "As": {
+        "standard deviation": 5.099286164262956,
+        "heterogeneity": -0.3414741272289996,
+        "number of pairs": 12
+    },
+    "Au": {
+        "standard deviation": 0.8049614667566162,
+        "heterogeneity": 0.19357913498841717,
+        "number of pairs": 12
+    },
+    "Ba": {
+        "standard deviation": 11.424753567993337,
+        "heterogeneity": 35.15596869331977,
+        "number of pairs": 12
+    },
+    "Ca": {
+        "standard deviation": 1393.847393118414,
+        "heterogeneity": 723.9093222818365,
+        "number of pairs": 12
+    },
+    "Ce": {
+        "standard deviation": 6.201085845484925,
+        "heterogeneity": 0.6867623847870075,
+        "number of pairs": 12
+    },
+    "Cl": {
+        "standard deviation": 79.10144411790762,
+        "heterogeneity": 213.62072933899557,
+        "number of pairs": 12
+    },
+    "Co": {
+        "standard deviation": 10.702791024772656,
+        "heterogeneity": -7.752302444569985,
+        "number of pairs": 2
+    },
+    "Cu": {
+        "standard deviation": 2.368594659968108,
+        "heterogeneity": 0.7946480136476635,
+        "number of pairs": 11
+    },
+    "Fe": {
+        "standard deviation": 1307.8650318946886,
+        "heterogeneity": 5353.546327894635,
+        "number of pairs": 12
+    },
+    "Hg": {
+        "standard deviation": 1.3362468168551629,
+        "heterogeneity": 1.6594271473805986,
+        "number of pairs": 12
+    },
+    "K": {
+        "standard deviation": 368.40472573016274,
+        "heterogeneity": 922.0004856704322,
+        "number of pairs": 11
+    },
+    "La": {
+        "standard deviation": 11.26595274746104,
+        "heterogeneity": 3.200850263383158,
+        "number of pairs": 12
+    },
+    "Mn": {
+        "standard deviation": 122.34879937426669,
+        "heterogeneity": 144.68566090907083,
+        "number of pairs": 12
+    },
+    "Mo": {
+        "standard deviation": 0.9366502155000648,
+        "heterogeneity": 3.4508724292675734,
+        "number of pairs": 3
+    },
+    "Nb": {
+        "standard deviation": 3.2026496161709996,
+        "heterogeneity": 11.13022512634408,
+        "number of pairs": 12
+    },
+    "Nd": {
+        "standard deviation": 3.710210080015541,
+        "heterogeneity": -0.32382725359532305,
+        "number of pairs": 12
+    },
+    "Ni": {
+        "standard deviation": 11.496088824626565,
+        "heterogeneity": 19.393424430632997,
+        "number of pairs": 12
+    },
+    "P": {
+        "standard deviation": 235.62214388974203,
+        "heterogeneity": 82.93525717706748,
+        "number of pairs": 11
+    },
+    "Pb": {
+        "standard deviation": 5.41880157988325,
+        "heterogeneity": 18.17971077952557,
+        "number of pairs": 12
+    },
+    "Pd": {
+        "standard deviation": 0.7831150814339045,
+        "heterogeneity": 0.6066540840512609,
+        "number of pairs": 12
+    },
+    "Pr": {
+        "standard deviation": 1.313153310978107,
+        "heterogeneity": 0.038947318911830564,
+        "number of pairs": 12
+    },
+    "Pt": {
+        "standard deviation": 1.522789837400056,
+        "heterogeneity": 0.10134454743390853,
+        "number of pairs": 12
+    },
+    "Rb": {
+        "standard deviation": 1.8840111547423548,
+        "heterogeneity": 3.302385942347791,
+        "number of pairs": 12
+    },
+    "Rh": {
+        "standard deviation": 0.3983763342666124,
+        "heterogeneity": 0.12033601376454833,
+        "number of pairs": 12
+    },
+    "S": {
+        "standard deviation": 290.0009731610426,
+        "heterogeneity": -61.995551856457325,
+        "number of pairs": 1
+    },
+    "Sb": {
+        "standard deviation": 1.1339805055912073,
+        "heterogeneity": 0.23227208544302158,
+        "number of pairs": 7
+    },
+    "Sm": {
+        "standard deviation": 10.566083768986074,
+        "heterogeneity": -1.038795725543336,
+        "number of pairs": 12
+    },
+    "Sr": {
+        "standard deviation": 29.88034847381531,
+        "heterogeneity": 63.33262563094059,
+        "number of pairs": 12
+    },
+    "Ti": {
+        "standard deviation": 328.5402323562591,
+        "heterogeneity": 534.5764023540669,
+        "number of pairs": 12
+    },
+    "U": {
+        "standard deviation": 1.9478227793805785,
+        "heterogeneity": 0.2644549314088491,
+        "number of pairs": 4
+    },
+    "V": {
+        "standard deviation": 8.14611408282353,
+        "heterogeneity": 12.4897549101372,
+        "number of pairs": 12
+    },
+    "Y": {
+        "standard deviation": 2.873976736233003,
+        "heterogeneity": 0.6443231690189828,
+        "number of pairs": 10
+    },
+    "Zn": {
+        "standard deviation": 7.885289316385707,
+        "heterogeneity": 15.047823949058666,
+        "number of pairs": 10
+    },
+    "Zr": {
+        "standard deviation": 846.4533863698472,
+        "heterogeneity": 141.2987510626897,
+        "number of pairs": 10
+    }
+}
