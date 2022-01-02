@@ -1,150 +1,224 @@
 {
     "Ag": {
         "standard deviation": 2.464375045523055,
-        "number of pairs": 1
+        "number of pairs": 1,
+        "rsd": 49.90725274889312,
+        "mean": 4.937909641956222
     },
     "As": {
         "standard deviation": 5.099286164262956,
-        "number of pairs": 27
+        "number of pairs": 27,
+        "rsd": 27.49539215470257,
+        "mean": 18.545966304360636
     },
     "Au": {
         "standard deviation": 0.8049614667566162,
-        "number of pairs": 27
+        "number of pairs": 27,
+        "rsd": 30.274438437957606,
+        "mean": 2.6588815789473683
     },
     "Ba": {
         "standard deviation": 11.424753567993337,
-        "number of pairs": 26
+        "number of pairs": 26,
+        "rsd": 2.570005906658596,
+        "mean": 444.5419186933807
     },
     "Bi": {
         "standard deviation": 0.502047736902401,
-        "number of pairs": 1
+        "number of pairs": 1,
+        "rsd": 19.425410598202262,
+        "mean": 2.584489704165447
     },
     "Ca": {
         "standard deviation": 1393.847393118414,
-        "number of pairs": 27
+        "number of pairs": 27,
+        "rsd": 7.349031632109579,
+        "mean": 18966.408948743396
     },
     "Ce": {
         "standard deviation": 6.201085845484925,
-        "number of pairs": 27
+        "number of pairs": 27,
+        "rsd": 8.179498314523352,
+        "mean": 75.8125450612833
     },
     "Cl": {
         "standard deviation": 79.10144411790762,
-        "number of pairs": 26
+        "number of pairs": 26,
+        "rsd": 6.364291502181854,
+        "mean": 1242.8947368421052
     },
     "Co": {
         "standard deviation": 10.702791024772656,
-        "number of pairs": 4
+        "number of pairs": 4,
+        "rsd": 41.09853831154371,
+        "mean": 26.041780229849365
     },
     "Cr": {
         "standard deviation": 1.6478136867831914,
-        "number of pairs": 1
+        "number of pairs": 1,
+        "rsd": 5.10420790330013,
+        "mean": 32.283435902322786
     },
     "Cu": {
         "standard deviation": 2.368594659968108,
-        "number of pairs": 26
+        "number of pairs": 26,
+        "rsd": 10.080851171975652,
+        "mean": 23.495978856951115
     },
     "Fe": {
         "standard deviation": 1307.8650318946886,
-        "number of pairs": 26
+        "number of pairs": 26,
+        "rsd": 2.697371165034079,
+        "mean": 48486.65429691301
     },
     "Hg": {
         "standard deviation": 1.3362468168551629,
-        "number of pairs": 27
+        "number of pairs": 27,
+        "rsd": -11.316554276910226,
+        "mean": -11.807894736842107
     },
     "K": {
         "standard deviation": 368.40472573016274,
-        "number of pairs": 22
+        "number of pairs": 22,
+        "rsd": 4.280374549217895,
+        "mean": 8606.833852833677
     },
     "La": {
         "standard deviation": 11.26595274746104,
-        "number of pairs": 25
+        "number of pairs": 25,
+        "rsd": 19.517284380647773,
+        "mean": 57.72295227010022
     },
     "Mn": {
         "standard deviation": 122.34879937426669,
-        "number of pairs": 27
+        "number of pairs": 27,
+        "rsd": 7.567586653772827,
+        "mean": 1616.7479141222595
     },
     "Mo": {
         "standard deviation": 0.9366502155000648,
-        "number of pairs": 9
+        "number of pairs": 9,
+        "rsd": 18.896005882958615,
+        "mean": 4.956868775875985
     },
     "Nb": {
         "standard deviation": 3.2026496161709996,
-        "number of pairs": 26
+        "number of pairs": 26,
+        "rsd": 4.868323088218614,
+        "mean": 65.78547804112345
     },
     "Nd": {
         "standard deviation": 3.710210080015541,
-        "number of pairs": 27
+        "number of pairs": 27,
+        "rsd": 17.48346274188959,
+        "mean": 21.221254249171388
     },
     "Ni": {
         "standard deviation": 11.496088824626565,
-        "number of pairs": 25
+        "number of pairs": 25,
+        "rsd": 8.229114389692416,
+        "mean": 139.7001947017079
     },
     "P": {
         "standard deviation": 235.62214388974203,
-        "number of pairs": 24
+        "number of pairs": 24,
+        "rsd": 14.010722260696786,
+        "mean": 1681.7273193025524
     },
     "Pb": {
         "standard deviation": 5.41880157988325,
-        "number of pairs": 26
+        "number of pairs": 26,
+        "rsd": 8.51759141502693,
+        "mean": 63.6189424433212
     },
     "Pd": {
         "standard deviation": 0.7831150814339045,
-        "number of pairs": 26
+        "number of pairs": 26,
+        "rsd": 19.627915306777723,
+        "mean": 3.989802631578947
     },
     "Pr": {
         "standard deviation": 1.313153310978107,
-        "number of pairs": 27
+        "number of pairs": 27,
+        "rsd": 91.78169138715155,
+        "mean": 1.4307355760518643
     },
     "Pt": {
         "standard deviation": 1.522789837400056,
-        "number of pairs": 27
+        "number of pairs": 27,
+        "rsd": 12.074915503406983,
+        "mean": 12.61118421052632
     },
     "Rb": {
         "standard deviation": 1.8840111547423548,
-        "number of pairs": 26
+        "number of pairs": 26,
+        "rsd": 3.4504173349922675,
+        "mean": 54.60241390615946
     },
     "Rh": {
         "standard deviation": 0.3983763342666124,
-        "number of pairs": 27
+        "number of pairs": 27,
+        "rsd": 28.96589467042576,
+        "mean": 1.3753289473684218
     },
     "S": {
         "standard deviation": 290.0009731610426,
-        "number of pairs": 5
+        "number of pairs": 5,
+        "rsd": 19.25507171137357,
+        "mean": 1506.1017559843472
     },
     "Sb": {
         "standard deviation": 1.1339805055912073,
-        "number of pairs": 14
+        "number of pairs": 14,
+        "rsd": 46.79338835670141,
+        "mean": 2.423377629649268
     },
     "Sm": {
         "standard deviation": 10.566083768986074,
-        "number of pairs": 27
+        "number of pairs": 27,
+        "rsd": -213.651245287946,
+        "mean": -4.945481948745843
     },
     "Sr": {
         "standard deviation": 29.88034847381531,
-        "number of pairs": 27
+        "number of pairs": 27,
+        "rsd": 4.114198930486542,
+        "mean": 726.2737893493567
     },
     "Ti": {
         "standard deviation": 328.5402323562591,
-        "number of pairs": 25
+        "number of pairs": 25,
+        "rsd": 4.461133847738293,
+        "mean": 7364.500675603412
     },
     "U": {
         "standard deviation": 1.9478227793805785,
-        "number of pairs": 15
+        "number of pairs": 15,
+        "rsd": 29.08029080093836,
+        "mean": 6.698085630277557
     },
     "V": {
         "standard deviation": 8.14611408282353,
-        "number of pairs": 26
+        "number of pairs": 26,
+        "rsd": 5.878154609387797,
+        "mean": 138.58284826012664
     },
     "Y": {
         "standard deviation": 2.873976736233003,
-        "number of pairs": 25
+        "number of pairs": 25,
+        "rsd": 7.5954987807697165,
+        "mean": 37.83789345749534
     },
     "Zn": {
         "standard deviation": 7.885289316385707,
-        "number of pairs": 25
+        "number of pairs": 25,
+        "rsd": 5.387892845577357,
+        "mean": 146.3520070347786
     },
     "Zr": {
         "standard deviation": 846.4533863698472,
-        "number of pairs": 22
+        "number of pairs": 22,
+        "rsd": 17.3220672491472,
+        "mean": 4886.56102181753
     }
 }
