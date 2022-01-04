@@ -9,6 +9,7 @@
 
 # QGIS temp. files
 *.vrt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
