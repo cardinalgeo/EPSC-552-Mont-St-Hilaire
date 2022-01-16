@@ -243,7 +243,7 @@ def interactive_linear_regression_plot(button_info, model_results, x_axis_label,
 
     # create histogram traces for each data column
     for col in button_info["data"]["columns"]: 
-        r_squared = round(model_results[col]["score"], 3)
+        r_squared = round(model_results[col]["rvalue"]**2, 3)
         g.add_trace(
             go.Scatter(x=[datetime.fromordinal(date) for date in model_results[col]["x_train"].squeeze()],
                        y=model_results[col]["y_train"].squeeze(), 
@@ -318,7 +318,7 @@ def interactive_linear_regression_calibration_plot(button_info, model_results, x
 
     # create histogram traces for each data column
     for col in button_info["data"]["columns"]: 
-        r_squared = round(model_results[col]["score"], 3)
+        r_squared = round(model_results[col]["rvalue"]**2, 3)
         g.add_trace(
             go.Scatter(x=model_results[col]["x_train"],
                        y=model_results[col]["y_train"], 
